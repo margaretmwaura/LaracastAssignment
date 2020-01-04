@@ -16,6 +16,9 @@
       <change afterPath="$PROJECT_DIR$/../teacherschedule/.idea/teacherschedule.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../websiteone/.idea/websiteone.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../websitetwo/.idea/websitetwo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sassproject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sassproject/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../websitetwo/index.php" beforeDir="false" />
     </list>
@@ -37,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Vv3TQI06pP59ksOctKc13Ju7yj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -73,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578119748155</updated>
-      <workItem from="1578119749429" duration="732000" />
+      <workItem from="1578119749429" duration="3957000" />
     </task>
     <servers />
   </component>

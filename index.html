@@ -1,28 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Laracast Lesson Assignment</title>
+    <style>
+        .color-red
+        {
+            background-color: indianred;
+        }
+        .is-loading
+        {
+            color: indigo;
+        }
+    </style>
 </head>
 <body>
 
 <div id="root">
 
     <input type="text" id="input" v-model="message">
+    <button v-on:click="toggleclass" :title="title" :class="{'is-loading' : isLoading}" :disabled="{'color-red' : true}">Add Name to list </button>
     <p>The value that I am working with is {{message}}</p>
 
+    <ul>
+        <li v-for="name in names" v-text="name"></li>
+    </ul>
 </div>
 
 <script src="https://unpkg.com/vue@2.6.11/dist/vue.js"></script>
 <script>
 
-    new Vue({
+   var app = new Vue({
 
         el : '#root',
         data : {
-            message : 'Hello World'
-        }
+            message : ' ',
+            names : ['Joe','Mary','Maggie','Simon'],
+            title:"Adding an item to list",
+            className : 'color-red',
+            isLoading : false
+        },
+        methods :
+            {
+                addName()
+                {
+                     this.names.push(this.message);
+                     this.message = " "
+                },
+                toggleclass()
+                {
+                    this.isLoading = true
+                }
+            }
     });
 </script>
+
 </body>
 </html>
