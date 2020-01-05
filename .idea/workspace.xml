@@ -16,8 +16,10 @@
       <change afterPath="$PROJECT_DIR$/../teacherschedule/.idea/teacherschedule.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../websiteone/.idea/websiteone.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../websitetwo/.idea/websitetwo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LaracastLessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LaracastLessons.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sassproject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sassproject/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../websitetwo/index.php" beforeDir="false" />
     </list>
@@ -34,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,6 +55,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -76,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578119748155</updated>
-      <workItem from="1578119749429" duration="5646000" />
+      <workItem from="1578119749429" duration="10580000" />
     </task>
     <servers />
   </component>

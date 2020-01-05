@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Laracast Lesson Assignment</title>
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/x.y.z/css/bulma.css" />-->
     <style>
         .color-red
         {
@@ -18,9 +19,9 @@
 
 <div id="root">
     <input type="text" id="input" v-model="message">
-    <button v-on:click="toggleclass" :title="title" :class="{'is-loading' : isLoading}" :disabled="{'color-red' : true}">Add Name to list </button>
+    <button v-on:click="toggleclass" :title="title" :class="{'is-loading' : isLoading}" >Add Name to list </button>
     <p>The value that I am working with is {{message}}</p>
-     <h1 v-text="new Date()"></h1>
+     <h1 v-text="new Date()">This is the date</h1>
     <ul>
         <li v-for="name in names" v-text="name"></li>
     </ul>
@@ -31,30 +32,40 @@
     <ul>
         <li v-for="task in finishedtasks" v-text="task.description"></li>
     </ul>
+        <message body="messaget " title="hghgfhgf"> </message>
 
-    <task>Go to the bankc</task>
+        <task-list></task-list>
+
+        <coupon v-on:applied="onCouponApplied"></coupon>
+
+        <h1 v-if="acoupon">The coupon is in use</h1>
 </div>
 
 <script src="https://unpkg.com/vue@2.6.11/dist/vue.js"></script>
-<script src="main.js"/>
+<script src="main.js"></script>
 <script>
-
-   var app = new Vue({
-
+    // import Vue from 'vue';
+   new Vue({
         el : '#root',
-        data : {
-            message : ' ',
-            names : ['Joe','Mary','Maggie','Simon'],
-            title:"Adding an item to list",
-            className : 'color-red',
-            isLoading : false,
-            tasks :
-               [
-                   {description:'Go to the store' , completed:false},
-                   {description: 'Go to the gym' , completed: false},
-                   {description:'Finish assignment' , completed:true},
-                   {description:'Go to church' , completed:true}
-                ]
+        data () {
+            return{
+                message : ' ',
+                messaget : 'Maggy is a good girl she is practising components but she is really tired',
+                names : ['Joe','Mary','Maggie','Simon'],
+                title:"Adding an item to list",
+                titlet : " About maggie",
+                className : 'color-red',
+                isLoading : false,
+                acoupon : false,
+                tasks :
+                    [
+                        {description:'Go to the store' , completed:false},
+                        {description: 'Go to the gym' , completed: false},
+                        {description:'Finish assignment' , completed:true},
+                        {description:'Go to church' , completed:true}
+                    ]
+            }
+
         },
         methods :
             {
@@ -66,7 +77,14 @@
                 toggleclass()
                 {
                     this.isLoading = true
+                },
+                onCouponApplied()
+                {
+                    this.acoupon = true;
+                    alert('Coupon was applied');
+
                 }
+
             },
        computed:
            {
