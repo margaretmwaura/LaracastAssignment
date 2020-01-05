@@ -17,17 +17,26 @@
 <body>
 
 <div id="root">
-
     <input type="text" id="input" v-model="message">
     <button v-on:click="toggleclass" :title="title" :class="{'is-loading' : isLoading}" :disabled="{'color-red' : true}">Add Name to list </button>
     <p>The value that I am working with is {{message}}</p>
-
+     <h1 v-text="new Date()"></h1>
     <ul>
         <li v-for="name in names" v-text="name"></li>
     </ul>
+    <p>{{reversedtitle}}</p>
+    <ul>
+        <li v-for="task in tasks" v-text="task.description"></li>
+    </ul>
+    <ul>
+        <li v-for="task in finishedtasks" v-text="task.description"></li>
+    </ul>
+
+    <task>Go to the bankc</task>
 </div>
 
 <script src="https://unpkg.com/vue@2.6.11/dist/vue.js"></script>
+<script src="main.js"/>
 <script>
 
    var app = new Vue({
@@ -38,7 +47,14 @@
             names : ['Joe','Mary','Maggie','Simon'],
             title:"Adding an item to list",
             className : 'color-red',
-            isLoading : false
+            isLoading : false,
+            tasks :
+               [
+                   {description:'Go to the store' , completed:false},
+                   {description: 'Go to the gym' , completed: false},
+                   {description:'Finish assignment' , completed:true},
+                   {description:'Go to church' , completed:true}
+                ]
         },
         methods :
             {
@@ -51,7 +67,18 @@
                 {
                     this.isLoading = true
                 }
-            }
+            },
+       computed:
+           {
+               reversedtitle()
+               {
+                   return this.title.split(' ').reverse().join()
+               },
+               finishedtasks()
+               {
+                   return this.tasks.filter(task => task.completed)
+               }
+           }
     });
 </script>
 

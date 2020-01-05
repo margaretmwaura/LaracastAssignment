@@ -16,7 +16,6 @@
       <change afterPath="$PROJECT_DIR$/../teacherschedule/.idea/teacherschedule.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../websiteone/.idea/websiteone.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../websitetwo/.idea/websitetwo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sassproject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../sassproject/index.html" afterDir="false" />
@@ -36,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -76,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578119748155</updated>
-      <workItem from="1578119749429" duration="3957000" />
+      <workItem from="1578119749429" duration="5646000" />
     </task>
     <servers />
   </component>
