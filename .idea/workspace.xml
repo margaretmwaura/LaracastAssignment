@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/../WEBPACKER/.idea/WEBPACKER.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../challengetwo/.idea/challengetwo.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../components/src/components/learnmore.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../composerbower/.idea/composerbower.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../configured/.idea/configured.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../configured/src/components/CreateItem.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../foundationapp/.idea/foundationapp.iml" afterDir="false" />
@@ -78,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578119748155</updated>
-      <workItem from="1578119749429" duration="12551000" />
+      <workItem from="1578119749429" duration="15541000" />
     </task>
     <servers />
   </component>

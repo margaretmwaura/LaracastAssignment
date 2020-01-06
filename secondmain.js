@@ -52,3 +52,14 @@ Vue.component('letter',{
 
 });
 
+Vue.component('progress-view' , {
+
+    data()
+    {
+        return {
+
+            comletionrate : 50
+        }
+    }
+})
+
